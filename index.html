@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watches</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Watch Shop</h1>
+		<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit</em>
+
+		<select id = "choice">
+			<option hidden>Choose sort</option>
+			<option value = "name">By name</option>
+			<option value = "price">By price</option>
+		</select>
+
+		<div id="price">Price range:</div>
+
+		<div id="inp">
+
+			<div class="minmax" id="min">
+			</div>
+
+			<input type = "range" id = "range" multiple="2" step="1">
+
+			<div class="minmax" id="max">
+			</div>
+
+		</div>
+
+	</header>
+
+	<div id = "holder">
+	</div>
+	
+	<script type = "text/javascript" src = "script.js"></script>
+</body>
+</html>
